@@ -1,0 +1,3 @@
+echo "Start to deploy jar to remote cluster"
+scp target/mapreduce-demo.jar myhadoop1-3967.lvs01.dev.ebayc3.com:/home/yingbwang/
+echo "Deployment finished."
